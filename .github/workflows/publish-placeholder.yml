@@ -1,0 +1,20 @@
+name: Publish approved projects
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout public mirror
+        uses: actions/checkout@v4
+
+      - name: Explain initial state
+        run: |
+          echo "The public project mirror is ready."
+          echo "Approved projects will be copied here by the private-repo publish workflow."
+          test -f projects.json
