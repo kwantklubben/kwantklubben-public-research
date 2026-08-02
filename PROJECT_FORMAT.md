@@ -22,7 +22,7 @@ projects/<slug>/
   "summary": "Short result or limitation",
   "author": "GitHub username",
   "date": "2026-01-01",
-  "source": "https://github.com/Lorenz0n/kwantklubben-projects/tree/main/projects/example"
+  "source": "https://github.com/alfredbirkelund/kwantklubben-projects/tree/main/projects/example"
 }
 ```
 
