@@ -27,3 +27,5 @@ projects/<slug>/
 ```
 
 The website consumes the root `projects.json` index. The repository remains the public source of truth for published project files.
+
+The index may also contain curated flagship entries (e.g. the Kwant Atlas) that have their own repo/site and are not published research. They always sort first and are marked `"featured": true`, with an external `source` and an optional `source_label` for the card link.
