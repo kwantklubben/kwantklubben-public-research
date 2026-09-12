@@ -1,3 +1,22 @@
 {
-  "projects": []
+  "projects": [
+    {
+      "title": "Kwant Atlas",
+      "question": "The club's living first-principles map of quantitative finance.",
+      "summary": "A knowledge graph and study tool built around the eight core disciplines of quant finance, every topic from intuition to derivation, code, failure modes, and canonical literature.",
+      "tags": [
+        "education",
+        "reference",
+        "quant"
+      ],
+      "status": "Live",
+      "authors": [
+        "Kwant Klubben"
+      ],
+      "date": "2026-09-12",
+      "source": "https://atlas.kwantklubben.com",
+      "source_label": "Visit the atlas \u2192",
+      "featured": true
+    }
+  ]
 }
