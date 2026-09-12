@@ -2,11 +2,8 @@
   "projects": [
     {
       "title": "Kwant Atlas",
-      "summary": "A knowledge map built around eight defined core disciplines of quant finance, every topic from intuition to derivation, code and failure modes.",
+      "summary": "A knowledge map built around eight defined disciplines of quant finance. Every topic from intuition to derivation and failure modes.",
       "status": "Flagship",
-      "authors": [
-        "kwantklubben"
-      ],
       "date": "2026-09-12",
       "source": "https://atlas.kwantklubben.com",
       "featured": true
