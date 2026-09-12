@@ -30,4 +30,4 @@ The website consumes the root `projects.json` index. The repository remains the 
 
 The index may also contain curated flagship entries (e.g. the Kwant Atlas) that have their own repo/site and are not published research. They always sort first and are marked `"featured": true` with an external `source`.
 
-On the site, each card links its `source` as a whole (the entire card is the link). A project's `status` drives its verdict sticker: `Flagship`, `Paper`/`Live`, or `Killed` each render as a stamp. `authors` is a list of GitHub usernames, shown as `@username` in the card footer.
+On the site, each card links its `source` as a whole (the entire card is the link). A project's `status` field drives its verdict sticker — set it in the repo to one of: `Flagship` (gold), `Survived` (green), `Live paper`/`Paper` (blue), or `Killed` (coral); anything else falls back to a neutral stamp. The card footer shows `date` only.
