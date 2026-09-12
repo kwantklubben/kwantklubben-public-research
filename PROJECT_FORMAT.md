@@ -28,4 +28,6 @@ projects/<slug>/
 
 The website consumes the root `projects.json` index. The repository remains the public source of truth for published project files.
 
-The index may also contain curated flagship entries (e.g. the Kwant Atlas) that have their own repo/site and are not published research. They always sort first and are marked `"featured": true`, with an external `source` and an optional `source_label` for the card link.
+The index may also contain curated flagship entries (e.g. the Kwant Atlas) that have their own repo/site and are not published research. They always sort first and are marked `"featured": true` with an external `source`.
+
+On the site, each card links its `source` as a whole (the entire card is the link). A project's `status` drives its verdict sticker: `Flagship`, `Paper`/`Live`, or `Killed` each render as a stamp. `authors` is a list of GitHub usernames, shown as `@username` in the card footer.
